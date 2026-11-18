@@ -1,5 +1,8 @@
 from urllib.parse import urlparse
 
+
+# it is checking url scheme [ https,http ] and hostname
+
 print("validation.py is loading")
 
 def checks(url):

@@ -1,5 +1,7 @@
 import requests
 
+# it is checking response code and then their security header check
+
 headers_check = [
     "Strict-Transport-Security",
     "Content-Security-Policy",

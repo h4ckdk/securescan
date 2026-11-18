@@ -3,11 +3,6 @@ import urllib3
 from validation import checks
 from Engine import full_header_check
 
-
-
-
-
-
 url= input("enter your website address: ").strip()
 problem = checks(url)
 
@@ -37,3 +32,4 @@ else:
                         print("available ", header)
                     else:
                         print("missing ", header)
+
